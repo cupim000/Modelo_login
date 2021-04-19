@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tela de Login</title>
+
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <!-- Criando o formulário para o usuário colocar os dados de acesso.  -->
+    <div id="carrega"></div>
+    <div class="app-container align-item-sm-center justify-content-center ">
+        <div class="col-md-5">
+            <div class="card-shadow-secondary  mb-3 card card-body border-secondary widget-content bg-light" style="width: 55rem">
+                <div class="widget-content-wrapper lign-item-sm-center justify-content-center center-block">
+                    <div class="widget-content-left col-md-10">
+                        <blockquote class="blockquote text-center">
+                            <h3>
+                                <p>Bem-vindo</p>
+                            </h3>
+                        </blockquote>
+                        <div class="widget-subheading  mb-3">
+                            <form method="post" action="valida_login.php">
+                                <div class=" position-relative  form-group"><label class="mr-sm-6 text-muted">Usuário/E-mail: </label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon">
+                                            <i class="fa fa-fw"></i>
+                                        </span>
+                                        <input type="text" name="funcionario" placeholder="Informe seu e-mail: " required autofocus class="form-control left-border-none">
+                                    </div>
+                                </div>
+                                <div class=" position-relative form-group"><label class="mr-sm-6 text-muted">Senha: </label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon">
+                                            <i class="fa fa-lock"></i>
+                                        </span>
+                                        <input type="password" name="senha" placeholder="Informe sua senha" required autofocus class="form-control left-border-none">
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-item-sm-center justify-content-center">
+                                    <button type="submit" class="btn btn-primary  btn-lg col">Entrar</button>
+                                </div>
+                            </form>
+                            <div class="app-footer">
+                                <div class="app-footer__inner">
+                                    <div class="app-footer-left">
+                                        <ul class="nav">
+                                            <li class="nav-item">
+                                                <a href="javascript:void(0);" class="nav-link">
+                                                Esqueci minha senha 
+                                            </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+</body>
+
+
+
+
+
+</html>

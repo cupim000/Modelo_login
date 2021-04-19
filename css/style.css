@@ -1,0 +1,10 @@
+.app-container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/images/background/8.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
